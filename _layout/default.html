@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="description" content="CSC630: The Open Source Movement, Phillips Academy Andover, Winter 2018"/>
+    <meta name="keywords" content="computer science, open source" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{% link README.md %}">CSC630</a></h1>
+        <h2>The Open Source Movement</h2>
+        <p>Course materials and resources for CSC630 at Phillips Academy Andover (Winter 2017).</p>
+        <p><a href="{% link /course/ASSIGNMENTS.md %}">Assignments</a> | <a href="{% link /resources/resources.md %}">Resources</a></p>
+
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub <small>{{ github_name }}</small></a></p>
+        {% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        {% include translations.html %}
+        <hr>
+        <p>This website is a collaborative project maintained by the students in CSC630.</p>
+        <p><small>Hosted on GitHub Pages.</small></p>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
