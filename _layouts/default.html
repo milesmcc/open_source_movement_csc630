@@ -26,14 +26,13 @@ which was itself adapted from https://github.com/pages-themes/minimal
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{% link README.md %}">CSC630</a></h1>
+        <h1><a href="{% '/README.md' | relative_url %}" style="display: inline;">CSC630</a></h1>
         <h2>The Open Source Movement</h2>
+        <hr>
         <p>Course materials and resources for CSC630 at Phillips Academy Andover (Winter 2017).</p>
-        <p><a href="{% link /course/ASSIGNMENTS.md %}">Assignments</a> | <a href="{% link /resources/resources.md %}">Resources</a></p>
+        <hr>
+        <p><a href="{% '/course/ASSIGNMENTS.md' | relative_url}">Assignments</a> | <a href="{% '/resources/resources.md' | relative_url %}">Resources</a></p>
 
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
       </header>
       <section>
 
@@ -43,6 +42,9 @@ which was itself adapted from https://github.com/pages-themes/minimal
       <footer>
         <p>This website is a collaborative project maintained by the students in CSC630.</p>
         <p><small>Hosted on GitHub Pages.</small></p>
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub <small>{{ github_name }}</small></a></p>
+        {% endif %}
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
