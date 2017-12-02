@@ -1,11 +1,13 @@
-This repository holds all the publicly available content for the Honors Computer Science Seminar at Phillips Academy Andover, CSC630: The Open Source Movement.
+**This repository holds all the publicly available content for the Honors Computer Science Seminar at Phillips Academy Andover, CSC630: The Open Source Movement.**
+
+---
 
 ## Assignments
-Assignments are listed in [ASSIGNMENTS.md](course/ASSIGNMENTS.md).
+Assignments are listed in [ASSIGNMENTS.md](/course/ASSIGNMENTS.md).
 
 ## Resources
-For miscellaneous resources for open-source, see [RESOURCES.md](course/RESOURCES.md).
+For miscellaneous resources for open-source, see [RESOURCES.md](/course/RESOURCES.md).
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to contribute.
-Make sure to follow the [code of conduct](CODE_OF_CONDUCT.md).
+See [CONTRIBUTING.md](/CONTRIBUTING.md) to learn how to contribute.
+Make sure to follow the [code of conduct](/CODE_OF_CONDUCT.md).
