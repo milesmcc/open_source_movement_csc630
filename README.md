@@ -7,7 +7,3 @@ Assignments are listed in [ASSIGNMENTS.md](/course/ASSIGNMENTS.md).
 
 ## Resources
 For miscellaneous resources for open-source, see [resources](/resources/resources.md).
-
-## Contributing
-See [CONTRIBUTING.md](/CONTRIBUTING.md) to learn how to contribute.
-Make sure to follow the [code of conduct](/CODE_OF_CONDUCT.md).
