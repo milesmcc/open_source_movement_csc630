@@ -1,3 +1,2 @@
-theme: jekyll-theme-cayman
-site:
-  name: CSC630: The Open Source Movement
+theme: jekyll-theme-minima
+name: CSC630: The Open Source Movement
