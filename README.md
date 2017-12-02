@@ -10,8 +10,7 @@ For miscellaneous resources related open-source projects, see [resources](/resou
 
 ## Announcements
 *Public announcements will appear here. For private announcements, see Slack.*
-
-<small>There are currently no announcements.</small>
+There are currently no announcements.
 
 ## Showcase
 *Here are the projects that the students in CSC630 have been working on as a part of the course:*
