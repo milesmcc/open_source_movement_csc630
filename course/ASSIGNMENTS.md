@@ -7,6 +7,7 @@ All course assignments are listed here under the day that they are due.
 
 ### December 5, 2017
 * Listen to [this podcast](https://www.cmpod.net/history-open-source-free-software-pt-2-w-special-guests-richard-stallman-tim-oreilly/), and be prepared to discuss in class.
+* Complete [this worksheet](/course/files/DAGshort.pdf).
 
 -----
 
